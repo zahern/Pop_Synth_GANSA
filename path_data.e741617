@@ -1,0 +1,39 @@
+Lmod has detected the following error: The following module(s) are unknown:
+"cuda/11.3.1"
+
+Please check the spelling or version number. Also try "module spider ..."
+It is also possible your cache file is out-of-date; it may help to try:
+  $ module --ignore_cache load "cuda/11.3.1"
+
+Also make sure that all modulefiles written in TCL start with the string
+#%Module
+
+
+
+Processed 10000 people so far. Remaining unmatched: 1445. Est. time remaining: 00:00:33
+Processed 20000 people so far. Remaining unmatched: 2236. Est. time remaining: 00:00:46
+Processed 30000 people so far. Remaining unmatched: 1541. Est. time remaining: 00:00:30
+Processed 40000 people so far. Remaining unmatched: 1121. Est. time remaining: 00:00:21
+Processed 50000 people so far. Remaining unmatched: 178. Est. time remaining: 00:00:03
+Processed 60000 people so far. Remaining unmatched: 1787. Est. time remaining: 00:00:33
+Processed 70000 people so far. Remaining unmatched: 38. Est. time remaining: 00:00:00
+Processed 80000 people so far. Remaining unmatched: 841. Est. time remaining: 00:00:14
+Processed 90000 people so far. Remaining unmatched: 244. Est. time remaining: 00:00:04
+Processed 100000 people so far. Remaining unmatched: 1404. Est. time remaining: 00:00:25
+Processed 110000 people so far. Remaining unmatched: 64. Est. time remaining: 00:00:01
+Processed 120000 people so far. Remaining unmatched: 17. Est. time remaining: 00:00:00
+Processed 130000 people so far. Remaining unmatched: 105. Est. time remaining: 00:00:01
+        AGEP  CTPP  EMPP  GNGP  HRSP  ...  STRD  TENLLD  VEHRD      id  household_id
+0         36     5     5     6     1  ...     1       6      4       0             1
+1         27     1     5     2     7  ...     1       1      1      11             2
+2         30     1     1     4     8  ...     3       2      3     216             3
+3         30     5     5     4     4  ...     1       1      2     727             4
+4         33     5     5     6     1  ...     1       1      2     837             5
+...      ...   ...   ...   ...   ...  ...   ...     ...    ...     ...           ...
+225203    27     1     5     4     1  ...     1       2      2  217812         90790
+225204    26     5     5     6     1  ...     1       2      1  220740         90791
+225205     4     1     5     6     1  ...     1       1      1  220934         90792
+225206    27     5     5     6     1  ...     3       6      0  222054         90793
+225207    33     5     5     7     1  ...     1       2      2  225010         90794
+
+[225208 rows x 52 columns]

@@ -1,0 +1,25 @@
+#!/bin/bash -l
+#PBS -N household_match
+#PBS -l walltime=23:59:00
+#PBS -l mem=100GB
+#PBS -l ncpus=1
+#PBS -l ngpus=0
+#PBS -j eo
+#PBS -m n
+#PBS -r y
+
+cd $PBS_O_WORKDIR
+module purge
+module load cuda/11.3.1
+
+
+rm -f *.o*  # Remove .o files
+rm -f *.e*  # Remove .e files
+
+# Activate the environment
+conda activate syn_env
+
+
+
+# Run the Python script
+python household_match.py
