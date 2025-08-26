@@ -1,1 +1,1 @@
-#code used to generat the synthetic population with outputs.
+code used to generat the synthetic population with outputs.
